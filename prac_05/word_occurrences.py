@@ -7,8 +7,8 @@ def main():
         print(f"{word:{max_word_length}} : {count}")
 
 
-def count_word_occurrences(input_string):
-    words = input_string.lower().split()
+def count_word_occurrences(text):
+    words = text.lower().split()
     word_count = {}
     for word in words:
         if word in word_count:
