@@ -1,8 +1,7 @@
 # Practical 7
 
 ## Introduction
-Welcome to my CP1404 Practicals Repository. This repository contains the practical exercises and projects I completed as part of my studies in Information Technology at [Your University Name].
-
+Welcome to my CP1404 Practicals Repository.
 ## About Me
 - **Name:** Peipei Li
 - **Major:** Information Technology
