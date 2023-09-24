@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    {% block head %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+        <title>IT@JCU Programming 1 - {% block title %}Flask Demo{% endblock %}</title>
+    {% endblock %}
+</head>
+<body>
+<div id="nav">
+    <a href="{{ url_for('home') }}">Home</a> |
+    <a href="{{ url_for('about') }}">About</a> |
+    <a href="{{ url_for('search') }}">Search</a>
+</div>
+<div id="content">
+    {% block content %}{% endblock %}
+</div>
+<div id="footer">
+    {% block footer %}
+        <p>IT@JCU Flask Demo by Lindsay Ward - <a href="http://github.com/lindsaymarkward/flaskdemo">Original source on GitHub</a>.</p>
+    {% endblock %}
+</div>
+</body>
+</html>
